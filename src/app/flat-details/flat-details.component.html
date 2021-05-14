@@ -1,0 +1,20 @@
+
+<h1 mat-dialog-title>Flat Status - {{flatDetail.flatStatus}}</h1>
+<form>
+<div mat-dialog-content>
+    
+    <mat-form-field appearance="fill" form>
+        <mat-label>Select Status</mat-label>
+        <mat-select (selectionChange)="onStatusChange($event.value)">
+            <mat-option [value]="status" *ngFor="let status of availableStatus">{{status}}</mat-option>
+        </mat-select>
+    </mat-form-field>
+
+</div>
+
+<div mat-dialog-actions>
+  
+    <button mat-button color="primary" [mat-dialog-close]="selectedFlatStatus" [disabled]="!selectedFlatStatus">Save</button>
+    <button mat-button [mat-dialog-close]="">Close</button>
+</div>
+</form>

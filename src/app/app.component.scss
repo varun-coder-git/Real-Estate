@@ -1,0 +1,32 @@
+.col-2-5 {
+    flex: 0 0 20%;
+    max-width: 20%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.gray{
+    background-color:rgb(197, 194, 194);
+}
+
+.green{
+    background-color:rgb(74, 185, 74);
+}
+
+.red{
+    background-color:rgb(209, 73, 73);
+}
+
+.text{
+    color: white;
+}
+
+
+.heading{
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+    display: table;
+}

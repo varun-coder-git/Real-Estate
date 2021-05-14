@@ -59,63 +59,63 @@ export class AppComponent {
       "flatStatus": "Available"
     },
     {
-      "flatId": "301",
+      "flatId": 301,
       "flatStatus": "N/A"
     },
     {
-      "flatId": "302",
+      "flatId": 302,
       "flatStatus": "Booked"
     },
     {
-      "flatId": "303",
+      "flatId": 303,
       "flatStatus": "Booked"
     },
     {
-      "flatId": "102",
+      "flatId": 304,
       "flatStatus": "Available"
     },
     {
-      "flatId": "304",
+      "flatId": 305,
       "flatStatus": "N/A"
     },
     {
-      "flatId": "305",
+      "flatId": 401,
       "flatStatus": "Booked"
     },
     {
-      "flatId": "401",
+      "flatId": 402,
       "flatStatus": "Booked"
     },
     {
-      "flatId": "402",
+      "flatId": 403,
       "flatStatus": "Available"
     },
     {
-      "flatId": "403",
+      "flatId": 404,
       "flatStatus": "N/A"
     },
     {
-      "flatId": "404",
+      "flatId": 405,
       "flatStatus": "Booked"
     },
     {
-      "flatId": "405",
+      "flatId": 501,
       "flatStatus": "N/A"
     },
     {
-      "flatId": "501",
+      "flatId": 502,
       "flatStatus": "Booked"
     },
     {
-      "flatId": "502",
+      "flatId": 503,
       "flatStatus": "Booked"
     },
     {
-      "flatId": "503",
+      "flatId": 504,
       "flatStatus": "Available"
     },
     {
-      "flatId": "504",
+      "flatId": 505,
       "flatStatus": "N/A"
     }
   ];
